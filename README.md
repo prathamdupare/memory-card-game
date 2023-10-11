@@ -4,15 +4,6 @@
 
 The Valorant Memory Card Game is a web-based memory card game built with React. Test your memory by matching Valorant agents' cards in this fun and challenging game.
 
-The game follows these simple rules:
-
-- You start with a grid of face-down cards, each representing a Valorant agent.
-- Click on a card to reveal the agent's image.
-- Click on another card to reveal a second agent's image.
-- If the two agents match, they remain face up.
-- If they don't match, they flip back face down.
-- Keep flipping cards and matching agents until all agents are revealed.
-
 **Play the game [here](#link-to-your-game)**
 
 ## Features
@@ -22,15 +13,26 @@ The game follows these simple rules:
 - Memory matching gameplay with card flip animations.
 - Score tracking to record your progress.
 
+## Technologies Used
+
+This game is built using React and leverages an API to fetch images and agent names to create an engaging experience.
+
+## Credits
+
+- [Riot Games](https://www.riotgames.com/): Creator of Valorant and the agents used in this game.
+- [React](https://reactjs.org/): JavaScript library used to build the game.
+- [API](https://valorant-api.com/): Free Valorant API from valorant-api.com
+
 ## Installation
 
 1. Clone this repository to your local machine:
+
    ```bash
    git clone https://github.com/your-username/valorant-memory-card-game.git
    cd valorant-memory-card-game
    ```
 
-```bash
-npm install
-npm start
-```
+   ```bash
+   npm install
+   npm start
+   ```
